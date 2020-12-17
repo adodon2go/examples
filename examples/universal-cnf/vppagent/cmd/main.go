@@ -20,14 +20,14 @@ import (
 	"flag"
 	"os"
 
-	"github.com/danielvladco/k8s-vnet/pkg/nseconfig"
-	"github.com/networkservicemesh/networkservicemesh/controlplane/api/networkservice"
-	"github.com/networkservicemesh/networkservicemesh/pkg/tools"
-	"github.com/networkservicemesh/networkservicemesh/sdk/common"
+	"github.com/adodon2go/k8s-vnet/pkg/nseconfig"
+	"cisco-app-networking.github.io/networkservicemesh/controlplane/api/networkservice"
+	"cisco-app-networking.github.io/networkservicemesh/pkg/tools"
+	"cisco-app-networking.github.io/networkservicemesh/sdk/common"
 	"github.com/sirupsen/logrus"
 
-	"github.com/tiswanso/examples/examples/universal-cnf/vppagent/pkg/ucnf"
-	"github.com/tiswanso/examples/examples/universal-cnf/vppagent/pkg/vppagent"
+	"github.com/adodon2go/examples/examples/universal-cnf/vppagent/pkg/ucnf"
+	"github.com/adodon2go/examples/examples/universal-cnf/vppagent/pkg/vppagent"
 )
 
 const (

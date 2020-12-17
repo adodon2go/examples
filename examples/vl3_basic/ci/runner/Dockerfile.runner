@@ -1,6 +1,6 @@
 FROM tiswanso/kubectl_kind:latest
 
-ARG  vl3_repo=https://github.com/tiswanso/examples.git
+ARG  vl3_repo=https://github.com/adodon2go/examples.git
 # set this to branch or $CIRCLE_SHA1
 ARG  vl3_branch=master
 ARG  nsm_repo=https://github.com/tiswanso/networkservicemesh.git
@@ -10,8 +10,8 @@ RUN  git clone $vl3_repo /go/src/github.com/networkservicemesh/examples && \
      cd /go/src/github.com/networkservicemesh/examples && \
      git checkout $vl3_branch
 
-RUN  git clone $nsm_repo /go/src/github.com/networkservicemesh/networkservicemesh && \
-     cd /go/src/github.com/networkservicemesh/networkservicemesh && \
+RUN  git clone $nsm_repo /go/src/cisco-app-networking.github.io/networkservicemesh && \
+     cd /go/src/cisco-app-networking.github.io/networkservicemesh && \
      git checkout $nsm_branch
 
 # copy in KinD kubeconfigs

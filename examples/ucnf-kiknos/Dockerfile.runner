@@ -1,8 +1,8 @@
 FROM mmatache/kind_runner:latest as build
 
-ARG  nsm_repo=https://github.com/networkservicemesh/networkservicemesh.git
+ARG  nsm_repo=https://cisco-app-networking.github.io/networkservicemesh.git
 
-RUN  git clone $nsm_repo /go/src/github.com/networkservicemesh/networkservicemesh
+RUN  git clone $nsm_repo /go/src/cisco-app-networking.github.io/networkservicemesh
 
 # Add examples code contents
 RUN mkdir -p /go/src/github.com/networkservicemesh/examples

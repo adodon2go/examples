@@ -15,7 +15,7 @@
 
    ```bash
    $ cd $GOPATH/src/github.com/networkservicemesh
-   $ git clone https://github.com/tiswanso/examples
+   $ git clone https://github.com/adodon2go/examples
    $ cd examples
    $ git checkout <this branch >
    ```

@@ -4,11 +4,11 @@ import (
 	"context"
 	"os"
 
-	"github.com/danielvladco/k8s-vnet/pkg/nseconfig"
+	"github.com/adodon2go/k8s-vnet/pkg/nseconfig"
 	"github.com/davecgh/go-spew/spew"
-	"github.com/networkservicemesh/networkservicemesh/sdk/common"
+	"cisco-app-networking.github.io/networkservicemesh/sdk/common"
 	"github.com/sirupsen/logrus"
-	"github.com/tiswanso/examples/examples/universal-cnf/vppagent/pkg/config"
+	"github.com/adodon2go/examples/examples/universal-cnf/vppagent/pkg/config"
 	"gopkg.in/yaml.v2"
 )
 

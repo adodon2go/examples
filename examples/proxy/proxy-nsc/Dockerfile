@@ -1,6 +1,6 @@
 FROM golang:alpine as build
 RUN apk --no-cache add git curl
-ENV PACKAGEPATH=github.com/networkservicemesh/networkservicemesh/
+ENV PACKAGEPATH=cisco-app-networking.github.io/networkservicemesh/
 ENV GO111MODULE=on
 
 RUN mkdir /root/networkservicemesh

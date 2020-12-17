@@ -7,7 +7,7 @@ import (
 	"strings"
 
 	"github.com/sirupsen/logrus"
-	"github.com/tiswanso/examples/api/serviceregistry"
+	"github.com/adodon2go/examples/api/serviceregistry"
 
 	"google.golang.org/grpc"
 )

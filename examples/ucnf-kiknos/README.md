@@ -3,7 +3,7 @@
 This replaces the VPP agent in the universal-cnf with the Kiknos VPP aio-agent
 
 # Prerequisites
-You first need to clone the [Network Service Mesh repo](https://github.com/networkservicemesh/networkservicemesh)
+You first need to clone the [Network Service Mesh repo](https://cisco-app-networking.github.io/networkservicemesh)
 Please follow the instructions on where the NSM project should be in the [Examples README.md](../../README.md)
 
 - helm v2.16.3

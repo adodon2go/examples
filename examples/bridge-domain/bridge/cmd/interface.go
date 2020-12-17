@@ -19,13 +19,13 @@ import (
 	"os"
 	"path"
 
-	"github.com/networkservicemesh/networkservicemesh/controlplane/api/connection/mechanisms/memif"
+	"cisco-app-networking.github.io/networkservicemesh/controlplane/api/connection/mechanisms/memif"
 	"go.ligato.io/vpp-agent/v3/proto/ligato/configurator"
 	"go.ligato.io/vpp-agent/v3/proto/ligato/vpp"
 	interfaces "go.ligato.io/vpp-agent/v3/proto/ligato/vpp/interfaces"
 	l2 "go.ligato.io/vpp-agent/v3/proto/ligato/vpp/l2"
 
-	"github.com/networkservicemesh/networkservicemesh/controlplane/api/connection"
+	"cisco-app-networking.github.io/networkservicemesh/controlplane/api/connection"
 	"github.com/sirupsen/logrus"
 )
 

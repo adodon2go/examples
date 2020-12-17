@@ -40,7 +40,7 @@ performs the following:
    $ git checkout vl3_api_rebase
       $
    $ cd $GOPATH/src/github.com/networkservicemesh
-   $ git clone https://github.com/tiswanso/examples
+   $ git clone https://github.com/adodon2go/examples
    $ cd examples
    $ git checkout <this branch >
    ```
@@ -434,7 +434,7 @@ for access to each cluster's NSM Jaeger UI (NodePort service).
 
 ## References
 
-1. [Interdomain NSM](https://github.com/networkservicemesh/networkservicemesh/issues/714)
+1. [Interdomain NSM](https://cisco-app-networking.github.io/networkservicemesh/issues/714)
 1. [Build instructions](BUILD.md)
 
 ## TODOs
